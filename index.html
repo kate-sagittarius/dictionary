@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Cinzel:400,600|Noto+Serif:400i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>My dictionary</title>
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1 class="header__heading">My shiny dictionary <i class="fas fa-gem"></i></h1>
+        <div class="header__content">
+          <input class="header__input" type="text" name="word" placeholder="Word" id="search-field" value="">
+          <button class="header__button" type="button" name="button" id="search-button">Search</button>
+        </div>
+      </header>
+
+      <section class="main-section" id="main-section">
+        <div class="main-section__card">
+          <div class="main-section__card__word">
+            <h3 class="main-section__card__number main-section__card__number--top">Top definition</h3>
+            <h2 class="main-section__card__word-name"> Word</h2>
+          </div>
+          <h4 class="main-section__card__author">Kate</h4>
+          <div class="main-section__card__text" id="definitions">
+            <strong>Definitions</strong><br>
+            BkdfjsfgufhjkhUSHGSHbvJSFBVK
+            dhfgdSGuDSHljgDLS
+            kdhgjsghjf
+          </div>
+          <div class="main-section__card__text" id="examples">
+            <strong>Examples</strong><br>
+            BkdfjsfgufhjkhUSHGSHbvJSFBVK
+            dhfgdSGuDSHljgDLS
+            kdhgjsghjf
+          </div>
+          <div class="main-section__card__likes">
+            <img src="images/heart.svg" alt="Like" class="like-img">
+            <p class="number number-of-likes">1024</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
